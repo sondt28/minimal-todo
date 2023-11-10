@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.son.minimaltodo.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_addFragment"
+            app:destination="@id/addFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:popExitAnim="@anim/exit_from_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:popExitAnim="@anim/exit_from_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_reminderFragment"
+            app:destination="@id/reminderFragment"
+            app:popExitAnim="@anim/exit_from_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.son.minimaltodo.ui.add.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add">
+        <argument
+            android:name="task"
+            android:defaultValue="@null"
+            app:argType="com.son.minimaltodo.model.Task"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/reminderFragment"
+        android:name="com.son.minimaltodo.ui.reminder.ReminderFragment"
+        android:label="ReminderFragment">
+        <argument
+            android:name="task"
+            app:argType="com.son.minimaltodo.model.Task" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.son.minimaltodo.ui.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

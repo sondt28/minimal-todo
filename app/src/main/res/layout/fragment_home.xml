@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.son.minimaltodo.ui.home.HomeViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeFragment">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
+            app:title="Minimal Todo" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcTasks"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:taskList="@{viewModel.tasks}" />
+
+        <ImageView
+            android:id="@+id/ivEmptyTodo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:toggleEmptyListIcon="@{viewModel.tasks}"
+            android:src="@drawable/bg_empty_view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/you_don_t_have_any_todos"
+            android:textSize="16sp"
+            app:toggleEmptyListText="@{viewModel.tasks}"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/ivEmptyTodo"
+            app:layout_constraintStart_toStartOf="@+id/ivEmptyTodo"
+            app:layout_constraintTop_toBottomOf="@+id/ivEmptyTodo" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <View
+            android:id="@+id/vCircle"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/circle"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/fab"
+            app:layout_constraintEnd_toEndOf="@+id/fab"
+            app:layout_constraintStart_toStartOf="@+id/fab"
+            app:layout_constraintTop_toTopOf="@+id/fab" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

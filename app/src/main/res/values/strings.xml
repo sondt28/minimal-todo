@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Minimal Todo</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="you_don_t_have_any_todos">You don\'t have any todos</string>
+    <string name="title">Title</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="and">\@</string>
+    <string name="reminder_set">Reminder set for %s, %s</string>
+    <string name="send">Send</string>
+    <string name="done">DONE</string>
+    <string name="snooze">Snooze</string>
+    <string name="remove">Remove</string>
+    <string name="todo_channel">Todo Channel</string>
+    <string name="channel_name">Channel 1\n</string>
+    <string name="channel_description">This is channel 1</string>
+    <string name="release">releases</string>
+    <string name="removeTask">Remove task?</string>
+    <string name="cancel">CANCEL</string>
+    <string name="no_snooze">No Snooze</string>
+    <string name="minutes_30">30 Minutes</string>
+    <string name="minutes_60">60 Minutes</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="delete_success">Remove successful!</string>
+    <string name="about">About</string>
+    <string name="bio">Hi, my name is Son.
+\n\nThe project is not owned by me; it is purely for educational purposes. I have only cloned a project from GitHub. If there is any feedback or concerns regarding the project, I will remove it.
+\nThis is the source code of my project :
+\nDonate for support me:
+    </string>
+    <string-array name="time_snooze">
+        <item>@string/no_snooze</item>
+        <item>@string/minutes_30</item>
+        <item>@string/minutes_60</item>
+        <item>@string/tomorrow</item>
+    </string-array>
+</resources>
