@@ -2,16 +2,20 @@
 A fully Todo app with minimal features, just enough to be useful.
 
 # Screenshots:
+<p align="center">
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/5417bfc6-45b2-4b71-ac9a-b63ca7e97e60.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/5d0dd403-3173-48fb-bdf3-9d7915e15d19.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/18e6485f-8f9a-480f-ba07-ef4e2eb0ab84.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/7cc68373-3098-4a61-95cd-12b302287bdb.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/e5da1b6d-18ed-4531-91c7-0d3caa361237.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/fec5416b-e977-480c-bd9f-772530136a69.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/a6f3a88b-9045-40c9-a8ec-dfe1d1da3ffa.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/01a84e51-6572-4f49-a6f4-9f0c04fcb4e6.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/5200856f-e214-435e-b921-6cee83e75701.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/1d7122db-1487-471d-9baa-9c8c977c7690.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/b3f2217a-7e83-43ae-8c7e-47ee3a9940b4.jpg" width="200" />
+  <img src="https://github.com/sondt28/minimal-todo/assets/89345307/d905caae-3aad-4eba-aa88-136bc95cbd99.jpg" width="200" />
+</p>
 
-![Screenshot_20231115_222305](https://github.com/sondt28/minimal-todo/assets/89345307/db89ffbf-4e95-4648-8a1d-f3046cd9f106)
-![Screenshot_202!![Screenshot_20231115_221722](https://github.com/sondt28/minimal-todo/assets/89345307/1d1ded28-eaf5-4fb9-a054-2ea05e5b9acd)
-[Screenshot_20231115_221701](https://github.com/sondt28/minimal-todo/assets/89345307/d88c9df7-0686-4eca-93ab-c54b82f6009a)
-31115_221112](https://github.com/sondt28/minimal-todo/assets/89345307/929ce314-13b2-4248-b8ff-9378ab98049d)
-![Screenshot_20231115_221210](https://github.com/sondt28/minimal-todo/assets/89345307/e96eae81-4965-4c87-9f75-c5430a03f091)
-![Screenshot_20231115_221236](https://github.com/sondt28/minimal-todo/assets/89345307/a223217a-01f0-4ab6-8ecc-fc6931b707ff)
-![Screenshot_20231115_221251](https://github.com/sondt28/minimal-todo/assets/89345307/67b68f6b-dbd0-4c70-bc97-9370f6381a3c)
-![Screenshot_20231115_221300](https://github.com/sondt28/minimal-todo/assets/89345307/6dca47c7-087a-4918-ba09-72ced5ad5503)
-![Screenshot_20231115_221323](https://github.com/sondt28/minimal-todo/assets/89345307/575e91dc-43ee-4f39-aa60-dbb2419ff78a)
-![Screenshot_20231115_221331](https://github.com/sondt28/minimal-todo/assets/89345307/ab30d9da-fbbe-426d-b4f1-630efccc4795)
-![Screenshot_20231115_221939](https://github.com/sondt28/minimal-todo/assets/89345307/3c098d32-651d-4321-b03b-31759903ce6e)
-![Screenshot_20231115_222000](https://github.com/sondt28/minimal-todo/assets/89345307/da4eb1bb-16ed-43b3-bac3-78a82a5f1d4e)
+
+
