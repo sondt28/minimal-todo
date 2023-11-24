@@ -1,6 +1,7 @@
 # Minimal-todo
 A fully Todo app with minimal features, just enough to be useful.
-
+# Demo
+https://drive.google.com/file/d/1xBmLvSaUXozmIZSxIqrOvlVKH96sbAdg/view?usp=sharing
 # Screenshots:
 <p align="center">
   <img src="https://github.com/sondt28/minimal-todo/assets/89345307/5417bfc6-45b2-4b71-ac9a-b63ca7e97e60.jpg" width="200" />
